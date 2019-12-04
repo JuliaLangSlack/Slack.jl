@@ -1,6 +1,8 @@
 using Slack
 using Test
 
-@testset "Slack.jl" begin
-    # Write your own tests here.
-end
+endpoint = "/services/TQVJBU534/BR8C1LMPS/42thawJz34SWSgZCpniyLBSE"
+data = "Hello World"
+
+response = sendtoslack(data, endpoint)
+@test response == "ok"

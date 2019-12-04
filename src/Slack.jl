@@ -1,5 +1,10 @@
 module Slack
 
-greet() = print("Hello World!")
+using HTTP
+using JSON
+
+include("send.jl")
+export
+    sendtoslack
 
 end # module
