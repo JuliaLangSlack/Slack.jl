@@ -15,6 +15,12 @@ julia> ]
 ```
 _Note that this will not work till the package is registered._
 
+For the time being do: 
+```julia
+julia> ]
+(v1.3) pkg> add https://github.com/logankilpatrick/Slack.jl.git
+```
+
 ## Usage
 
 Here is a simple example:
