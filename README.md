@@ -17,7 +17,7 @@ _Note that this will not work till the package is registered._
 
 ## Usage
 
-Here is a simple exmaple:
+Here is a simple example:
 ```julia
 julia> using Slack
 
