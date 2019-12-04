@@ -30,6 +30,9 @@ julia> data = "Hello World"
 julia> response = sendtoslack(data, endpoint)
 "ok"
 ```
+The result of running this code produces the following in the test Slack Workspace: 
+
+![logo](assets/readme.png)
 
 To learn more about how data should be formatted before sending it as a argument to the above code, check out the [Slack API Docs](https://api.slack.com/messaging/composing/formatting).
 
