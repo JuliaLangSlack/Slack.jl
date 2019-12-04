@@ -1,4 +1,5 @@
 # Slack
+_Note that this repo is a WIP._
 
 ## Setup
 
@@ -6,7 +7,13 @@ The first thing you will need to use this package is a [Slack Workspace](https:/
 
 After that, you will need to add a `webhook` to your app such that you can send and retrieve data from the Slack Workspace.
 
+## Install
 
+```julia
+julia> ]
+(v1.3) pkg> add Slack
+```
+_Note that this will not work till the package is registered._
 
 ## Usage
 
