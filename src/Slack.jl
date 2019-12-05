@@ -5,7 +5,7 @@ using JSON
 
 include("send.jl")
 export
-    sendtoslack
+    sendtoslack,
     sendattachmenttoslack
 
 end # module
