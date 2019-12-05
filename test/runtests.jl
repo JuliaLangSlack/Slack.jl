@@ -23,3 +23,6 @@ response = sendtoslack(data, endpoint)
 
 response2 = sendattachmenttoslack(attachment, endpoint)
 @test response2 == "ok"
+
+response3 = getchannels("xoxp-845623957106-858416094789-850474976673-fbe1028a5c118dbea47abe55096bee55")
+println(response3)
