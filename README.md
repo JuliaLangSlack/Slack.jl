@@ -42,6 +42,8 @@ The result of running this code produces the following in the test Slack Workspa
 
 To learn more about how data should be formatted before sending it as a argument to the above code, check out the [Slack API Docs](https://api.slack.com/messaging/composing/formatting).
 
+You can also check your messages format using [Slacks Message Formatting Tool](https://api.slack.com/docs/messages/builder?msg=%7B%22text%22%3A%20%22This%20is%20a%20line%20of%20text.%5CnAnd%20this%20is%20another%20one.%22%7D).
+
 
 And here is a more complicated example using attachments:
 
