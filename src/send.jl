@@ -31,7 +31,7 @@ function sendattachmenttoslack(data::String, user_endpoint::String)
     HTTP.setuseragent!("HTTP.jl")
 
 
-    params = Dict("$(data)")
+    params = Dict("attachments"=>"$(data)")
     base_url = "https://hooks.slack.com"
 
     endpoint = user_endpoint
