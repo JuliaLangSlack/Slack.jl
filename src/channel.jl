@@ -32,6 +32,9 @@ end
 
 """
     getchannels(token::String)
+Takes in the Slack App Auth token and returns a array of channel objects.
+The main value in a channel object is the Channel ID and name which you
+need in order to send threaded messages to Slack. 
 """
 function getchannels(token::String)
 
