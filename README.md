@@ -1,5 +1,10 @@
 # Slack
-_Note that this repo is a WIP._
+
+## Current State
+
+The only feature that still needs to be actively developed for the [single production project utalizing this code](https://github.com/JuliaLangSlack/StackOverflowBot) is the addition of some functions for threaded messages. Once this is done, unless there is a community requested addition, this code will remain pretty much static. 
+
+Feel free to open an issue or Pull Request with additions or feature requests/bugs. 
 
 ## Setup
 
