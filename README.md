@@ -17,6 +17,8 @@ julia> ]
 ## Usage
 
 Here is a simple example:
+
+__Note that the endpoint in the example and tests was deprecated automatically by Slack's API Security Crawler.__
 ```julia
 julia> using Slack
 
@@ -74,6 +76,9 @@ The result of running this code produces the following in the test Slack Workspa
 ![logo](assets/readme2.png)
 
 ## Testing
+
+__Note that this functionality is currrently disbaled__
+
 I have gone through the trouble of setting up a Slack Workspace in order to test this package. After this is all stabilized, I will remove the endpoint from the Slack Workspace and deprecate the examples you see throughout this repo.
 
 In the meantime, I cannot stop you from using the end point URL I have setup.  Please use it responsibly.
