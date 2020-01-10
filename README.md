@@ -1,4 +1,8 @@
 # Slack
+[pkgeval-img]: https://juliaci.github.io/NanosoldierReports/pkgeval_badges/S/Slack.svg
+[pkgeval-url]: https://juliaci.github.io/NanosoldierReports/pkgeval_badges/report.html
+
+[![][pkgeval-img]][pkgeval-url]
 
 ## Current State
 
