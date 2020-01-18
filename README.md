@@ -4,6 +4,7 @@
 
 [![][pkgeval-img]][pkgeval-url]
 
+[Check out the Docs](https://logankilpatrick.github.io/Slack.jl/build/index.html)
 ## Current State
 
 The only feature that still needs to be actively developed for the [single production project utalizing this code](https://github.com/JuliaLangSlack/StackOverflowBot) is the addition of some functions for threaded messages. Once this is done, unless there is a community requested addition, this code will remain pretty much static. 
