@@ -1,7 +1,8 @@
 using Slack
 using Test
 
-endpoint = "/services/TQVJBU534/BR8C1LMPS/42thawJz34SWSgZCpniyLBSE"
+endpoint = ARGS[1]
+
 data = "Hello World"
 attachment = Dict("attachments" => [Dict("fallback" => "Required plain-text summary of the attachment",
                                         "color" => "#36a64f",
