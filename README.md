@@ -3,6 +3,7 @@
 [pkgeval-url]: https://juliaci.github.io/NanosoldierReports/pkgeval_badges/report.html
 
 [![codecov](https://codecov.io/gh/logankilpatrick/Slack.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/logankilpatrick/Slack.jl)
+[![Build Status](https://travis-ci.com/logankilpatrick/Slack.jl.svg?branch=master)](https://travis-ci.com/logankilpatrick/Slack.jl)
 [![][pkgeval-img]][pkgeval-url]
 
 [Check out the Docs](https://logankilpatrick.github.io/Slack.jl/build/index.html)
