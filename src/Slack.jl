@@ -13,6 +13,10 @@ include("channel.jl")
 export
     getchannels
 
+include("history.jl")
+export
+    getchannelhistory
+
 # include("utils.jl")
 # export
 #     convert_HTTP_Response_To_JSON

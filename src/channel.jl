@@ -34,7 +34,9 @@ end
     getchannels(token::String)
 Takes in the Slack App Auth token and returns a array of channel objects.
 The main value in a channel object is the Channel ID and name which you
-need in order to send threaded messages to Slack. 
+need in order to send threaded messages to Slack.
+
+Tokens can be accessed at "https://api.slack.com/apps/random-letters-and-numbers/oauth?"
 """
 function getchannels(token::String)
 
@@ -98,7 +100,7 @@ function getchannels(token::String)
                         num_members = value
                     elseif occursin("is_im", key)
                         is_im = value
-                    elseif occursin("id", key)
+                    elseif "id" == key
                         id = value
                     elseif occursin("created", key)
                         created = value
@@ -132,7 +134,7 @@ function getchannels(token::String)
                     # println("$(key) $(value)") #DEBUG
                 end
                 new_channel = channel(is_private, pending_connected_team_ids, topic, is_archived, is_general,
-                is_mpim, name, previous_names, num_members, is_im, id[1], created, name_normalized,
+                is_mpim, name, previous_names, num_members, is_im, id, created, name_normalized,
                 is_group, purpose, creator, is_channel, pending_shared, is_shared, is_ext_shared,
                 shared_team_ids, is_member, parent_conversation, is_pending_ext_shared, is_org_shared)
 

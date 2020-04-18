@@ -2,6 +2,8 @@ using Slack
 using Test
 
 endpoint = ARGS[1]
+token = ARGS[2]
+
 
 data = "Hello World"
 attachment = Dict("attachments" => [Dict("fallback" => "Required plain-text summary of the attachment",
@@ -25,5 +27,5 @@ response = sendtoslack(data, endpoint)
 response2 = sendattachmenttoslack(attachment, endpoint)
 @test response2 == "ok"
 
-response3 = getchannels("xoxp-845623957106-858416094789-850474976673-fbe1028a5c118dbea47abe55096bee55")
+response3 = getchannels(token)
 println(response3)
