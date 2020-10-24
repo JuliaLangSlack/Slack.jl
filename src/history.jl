@@ -17,8 +17,11 @@ function getchannelhistory(token::String, channelid::String)
         if occursin("messages", k)
             for item in v
                 for (key,value) in item
-                    print(key, " ", value)
-                    #TODO Make a Messages Struct and then add the message info to the object. 
+                    if key == "client_msg_id"
+                        println("client_msg_id: $(value)")
+                    elseif key == "text"
+                        println("text: $(value)")
+                    end
                 end
             end
         end

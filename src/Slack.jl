@@ -17,8 +17,8 @@ include("history.jl")
 export
     getchannelhistory
 
-# include("utils.jl")
-# export
-#     convert_HTTP_Response_To_JSON
+include("threads.jl")
+export
+    getthreads
 
 end # module
