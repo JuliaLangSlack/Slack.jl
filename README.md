@@ -1,12 +1,6 @@
 # Slack
-[pkgeval-img]: https://juliaci.github.io/NanosoldierReports/pkgeval_badges/S/Slack.svg
-[pkgeval-url]: https://juliaci.github.io/NanosoldierReports/pkgeval_badges/report.html
 
-[![codecov](https://codecov.io/gh/logankilpatrick/Slack.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/logankilpatrick/Slack.jl)
-[![Build Status](https://travis-ci.com/logankilpatrick/Slack.jl.svg?branch=master)](https://travis-ci.com/logankilpatrick/Slack.jl)
-[![][pkgeval-img]][pkgeval-url]
-
-[Check out the Docs](https://logankilpatrick.github.io/Slack.jl/build/index.html)
+[Check out the Docs](https://julialangslack.github.io/Slack.jl/)
 ## Current State
 
 The only feature that still needs to be actively developed for the [single production project utalizing this code](https://github.com/JuliaLangSlack/StackOverflowBot) is the addition of some functions for threaded messages. Once this is done, unless there is a community requested addition, this code will remain pretty much static. 
@@ -87,10 +81,3 @@ The result of running this code produces the following in the test Slack Workspa
 
 ![logo](assets/readme2.png)
 
-## Testing
-
-__Note that this functionality is currrently disbaled__
-
-I have gone through the trouble of setting up a Slack Workspace in order to test this package. After this is all stabilized, I will remove the endpoint from the Slack Workspace and deprecate the examples you see throughout this repo.
-
-In the meantime, I cannot stop you from using the end point URL I have setup.  Please use it responsibly.
