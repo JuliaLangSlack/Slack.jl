@@ -28,7 +28,8 @@ end
 include("send.jl")
 export
     sendtoslack,
-    sendattachmenttoslack
+    sendattachmenttoslack,
+    sendfiletoslack
 
 include("channel.jl")
 export
