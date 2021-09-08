@@ -45,7 +45,7 @@ function sendattachmenttoslack(data, user_endpoint::String)
 end
 
 """
-    sendfiletoslack(filepath, channel, token)
+    sendfiletoslack(filepath, message, channel, token)
 
 Sends a file with a message to the specified channel.
 https://api.slack.com/methods/files.upload
