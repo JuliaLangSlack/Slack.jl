@@ -43,3 +43,27 @@ function sendattachmenttoslack(data, user_endpoint::String)
 
     return (String(r.body))
 end
+
+"""
+    sendfiletoslack(filepath, message, channel, token)
+
+Sends a file with a message to the specified channel.
+https://api.slack.com/methods/files.upload
+"""
+function sendfiletoslack(filepath, message, channel, token)
+    HTTP.setuseragent!("HTTP.jl")
+
+
+    url = "https://slack.com/api/files.upload"
+    headers = Dict("Authorization"=>"Bearer $token")
+    data = Dict(
+        "file" => open(filepath),
+        "initial_comment" => message,
+        "channels" => channel
+    )
+    body = HTTP.Form(data)
+
+    r = HTTP.post(url, headers, body)
+
+    return (String(r.body))
+end
