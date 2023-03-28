@@ -10,7 +10,7 @@ JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 
 [compat]
 CodecZlib = "0.6.0, 0.7.0"
-HTTP = "0.8.8, 0.9.0"
+HTTP = "0.8.8, 0.9.0, 1.0.0"
 JSON = "0.21.0"
 julia = "1"
 
