@@ -1,7 +1,7 @@
 name = "Slack"
 uuid = "40bba58d-c7f1-4fe3-926e-2f246c890c3c"
 authors = ["Logan Kilpatrick <lok026@g.harvard.edu>"]
-version = "0.1.2"
+version = "0.1.3"
 
 [deps]
 CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
@@ -10,7 +10,7 @@ JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 
 [compat]
 CodecZlib = "0.6.0, 0.7.0"
-HTTP = "0.8.8, 0.9.0"
+HTTP = "0.8.8, 0.9.0, 1.0.0"
 JSON = "0.21.0"
 julia = "1"
 
